@@ -1,3 +1,7 @@
+* {
+  padding: 0;
+  margin: 0;
+}
 body {
   background: #e0e8ff;
   margin: 0px;
@@ -12,73 +16,72 @@ body {
 
 .container {
   background: #ffffff;
-  width: 450px;
-  height: 697px;
+  width: 400px;
   border-radius: 20px;
+  max-width: 85%;
 }
 
 .picture {
-  width: 450px;
-  height: 220px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
+  max-width: 100%;
 }
 
-.second-containeer{
-  display:flex;
-  align-items:center;
-  flex-direction:column;
-  margin-right:48px;
-  margin-left:48px;  
+.second-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding:29.1px 40px 40px;
 }
 
 .top-text {
-  color:#1F2E55;
+  color: #1f2e55;
   font-family: "Red Hat Display", sans-serif;
   font-size: 28px;
   line-height: 37px;
   line-height: 100%;
   text-align: Center;
-  margin: 45px 0px 17px 0px;
+  margin: 0px 0px 17px 0px;
 }
 
 .bottom-text {
-  color:#717FA6;
+  color: #717fa6;
   font-family: "Red Hat Display", sans-serif;
   font-size: 16px;
   line-height: 26px;
   line-height: 123%;
   text-align: Center;
-  margin-bottom:20px;
+  margin-bottom: 20px;
 }
 
-.second-container {
+.third-container {
   background: #f7f9ff;
-  margin-bottom:32px;
+  margin-bottom: 32px;
   width: 354px;
   height: 98px;
   display: flex;
   align-items: center;
+  border-radius: 11px;
 }
 
 .music-icon {
   margin-left: 24px;
 }
-/* ამას შიდა ლურჯი უნდა გავუნულო  */
+
 .plan {
-  color: #1F2E55;
+  color: #1f2e55;
   font-family: "Red Hat Display", sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 21px;
   line-height: 100%;
   text-align: Left;
-  margin-bottom:6px;
+  margin-bottom: 6px;
   height: 21px;
 }
 
 .price {
-  color: #717FA6;
+  color: #717fa6;
   font-family: "Red Hat Display", sans-serif;
   font-style: medium;
   font-size: 16px;
@@ -112,7 +115,7 @@ body {
   height: 50px;
   border-radius: 11px;
   border: none;
-  margin-bottom: 47px;
+  margin-bottom: 30px;
   color: #ffffff;
   font-family: "Red Hat Display", sans-serif;
   font-size: 15px;
@@ -128,21 +131,21 @@ body {
   line-height: 20px;
   line-height: 100%;
   text-align: left;
-  font-weight: 900;
+  font-weight: 700;
   border: none;
   width: 108px;
   padding: 0px;
-  color:#717FA6;
+  color: #717fa6;
 }
 
 .last-text:hover {
-  color: #1F2E55;
+  color: #1f2e55;
 }
 
 .proceed:hover {
-  background-color: #766CF1;
+  background-color: #766cf1;
 }
 
-.change-button:hover{
-  color:#766CF1;
+.change-button:hover {
+  color: #766cf1;
 }
