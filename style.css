@@ -33,6 +33,7 @@ body {
 }
 
 .top-text {
+  color:#1F2E55;
   font-family: "Red Hat Display", sans-serif;
   font-size: 28px;
   line-height: 37px;
@@ -42,6 +43,7 @@ body {
 }
 
 .bottom-text {
+  color:#717FA6;
   font-family: "Red Hat Display", sans-serif;
   font-size: 16px;
   line-height: 26px;
@@ -64,9 +66,9 @@ body {
 }
 /* ამას შიდა ლურჯი უნდა გავუნულო  */
 .plan {
-  color: #1f2e55;
+  color: #1F2E55;
   font-family: "Red Hat Display", sans-serif;
-  font-weight: 900;
+  font-weight: 700;
   font-size: 16px;
   line-height: 21px;
   line-height: 100%;
@@ -76,7 +78,7 @@ body {
 }
 
 .price {
-  color: #382AE1;
+  color: #717FA6;
   font-family: "Red Hat Display", sans-serif;
   font-style: medium;
   font-size: 16px;
